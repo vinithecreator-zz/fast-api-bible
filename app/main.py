@@ -1,7 +1,8 @@
 from typing import List
 from uuid import uuid4
 from fastapi import FastAPI
-from models.user import User, Gender, Role
+from app.models.user import User, Gender, Role
+
 
 application = FastAPI()
 
